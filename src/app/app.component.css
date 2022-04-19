@@ -1,0 +1,23 @@
+
+.text-center {
+    text-align: center;
+}
+
+/* Name and Social Icons*/
+#name-social-container {
+    /* margin-top: 15vh; */
+    background-color: black;
+    background-image: url("/assets/Images/3.jpg");
+	height: 100vh;
+	background-size: cover; /*	Resize the background image to cover the entire container, even if it has to stretch the image or cut a little bit off one of the edges*/
+	background-position: center;
+	opacity: 10.0;
+	background-attachment: fixed;
+    padding-top: 1.2rem
+}
+#logo{
+    margin-top: 10%;
+    height: auto;
+    width: 100%;
+    position: relative; /*this section will show over the previous one, if it will overlap each other*/
+}
