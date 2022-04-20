@@ -1,3 +1,14 @@
 .center{
     margin: auto;
 }
+.mat-toolbar.mat-primary {
+    background: aliceblue;
+    font-family: 'Lato';
+    color: #060b23;
+    font-weight: 400;
+}
+.color-dark {
+    font-family: 'Lato';
+    color: #060b23;
+    font-weight: 400;
+}
