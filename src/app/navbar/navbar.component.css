@@ -1,14 +1,21 @@
 .center{
     margin: auto;
+    font-weight: 400;
+    font-size: 1.5rem;
+    font-weight: 400;
 }
 .mat-toolbar.mat-primary {
-    background: aliceblue;
+    background: #F5F5F5;
     font-family: 'Lato';
-    color: #060b23;
-    font-weight: 400;
+    height: 4.6rem;
 }
-.color-dark {
+
+.mat-button, .mat-raised-button, .mat-icon-button, .mat-stroked-button, .mat-flat-button, .mat-fab, .mat-mini-fab {
     font-family: 'Lato';
+    font-size: 16px;
+    font-weight: 400px;
     color: #060b23;
-    font-weight: 400;
+    padding-top: 17px;
+    padding-bottom: 12px;
+    margin-right : 48px ;
 }

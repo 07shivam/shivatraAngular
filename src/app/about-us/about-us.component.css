@@ -254,6 +254,7 @@ section:nth-child(2n + 1) {
                              even if it has to stretch the image or cut a little bit off one of the edges*/
     background-repeat: no-repeat; /*The background-image is not repeated. The image will only be shown once*/
     position: relative;
+    margin-top:14px;
 }
 
 .portfolio-image-container img {
@@ -273,16 +274,19 @@ section:nth-child(2n + 1) {
     position: relative;
     font-size: 20px;
     padding: 1px;
-    color: slategray;
-    line-height: 20px;
+    color: #444444;
+    line-height: 27px;
 }
 
-.portfolio-image-container p {
+.portfolio-image-container h3 {
     max-width: 20%;
     height: 50%;
 }
-
-
+.list{
+    /* list-style-type: disc; */
+    list-style: disc;
+    font-size: 20px;
+}
 
 
 /*experience section*/
