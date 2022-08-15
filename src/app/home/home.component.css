@@ -1,4 +1,19 @@
-
+.horizontal-list{
+	list-style: none;/*to remove bullets from list*/
+	padding-left: 0px;
+	margin: 0px;
+}
+.horizontal-list li{
+	display: inline-block;/*bich me lane k liye*/
+	margin: 0px 8px 8px 0px;
+	font-weight: 100; /*defines thickness of character*/
+    font-size: 0.9rem;
+}
+.horizontal-list li a{
+	color: red;
+	text-decoration: none; /*achar tag ka underline chala jayega*/
+	transition: color 0.5s, border-bottom 4s;
+}
 .text-center {
     text-align: center;
 }
@@ -29,4 +44,45 @@
     color:aliceblue;
     font-family: system-ui;
     font-size: medium;
+}
+.text-center {
+    text-align: center;
+}
+#my-name {
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+#my-desb{
+    font-size: 1rem;
+     letter-spacing: 0.1rem;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+.icons li a i{
+	padding: 10px;
+	border-radius: 50%;
+}
+.icons li a i:hover{
+	box-shadow: 0px 0px 6px 4px rgba(230, 196, 196, 0.3);
+	
+}
+section {
+    width: 100%;
+    /*height: 75vh;*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+#about-para{
+	padding: 10px;
+	width: 70%;
+	text-align: justify;
+	font-size: 1.1rem;
+	margin: auto; /*bich me aa jayega isse text*/
+	line-height: 28px;
+	color: white;
 }
