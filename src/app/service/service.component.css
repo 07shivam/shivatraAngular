@@ -64,6 +64,8 @@ section {
     padding: 20px 10px 10px;
     font-weight: 400;
     margin: auto;
+    text-align: center;
+    margin-bottom: 1%;
 }
 
 .section-heading span {
@@ -84,64 +86,6 @@ section {
 }
 /* Work Experience */
 
-.timeline {
-    position: relative;
-    width: 75%;
-    margin: auto;
-}
-
-.timeline-box {
-    padding: 5px;
-    width: 50%;
-    min-height: 150px;
-    position: relative;
-    left: -10%;
-}
-
-
-
-.timeline-box:nth-child(2n) {
-    left: 53%;
-}
-
-.timeline-box:nth-child(2n+1)::after {
-    right: -11.8%;
-}
-
-.timeline-box:nth-child(2n)::after {
-    left: -9%;
-}
-
-.timeline-container {
-    padding: 8px;
-}
-
-.timeline-logo {
-    position: absolute;
-    width: 50px;
-    overflow: hidden;
-}
-
-.timeline-logo > img {
-    width: 100%;
-}
-
-#timeline-divider {
-    position: absolute;
-    width: 0;
-    top: 7%;
-    left: 50%;
-    border: 1px dashed #0096fa6b;
-    height: 79%;
-    color: #433E3F;
-}
-
-#timeline-divider .timeline-traveller {
-    position: sticky;
-    top: 135px;
-    z-index: 2;
-}
-
 #timeline-divider i {
     transform: rotate(90deg);
     margin-top: -35px;
@@ -149,32 +93,44 @@ section {
     color: #2857a4;
 }
 
-.experience-designation {
-    font-size: 1.4rem;
-}
+
 .experience-designation-name
 {
-    margin: 5px;
     color: white;
     /* font-weight: 400; */
     font-size: 1.7rem;
     font-style: revert;
     font-family: fantasy;
+    width: auto;
+    padding: 20px 10px 10px;
+    font-weight: 400;
+    margin: auto;
+    text-align: center;
+    letter-spacing: 0.05rem;
 }
 
 .experience-company-name {
-    margin: 5px;
     color: white;
     /* font-weight: 400; */
     font-size: 1.3rem;
     font-style: revert;
     font-family: fantasy;
+    width: auto;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 1%;
+    letter-spacing: 0.05rem;
 }
 .experience-duration {
     color: #9e9b9b;
     font-weight: 100;
     color: grey;
     font-size: 1rem;
+    width: auto;
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 1%;
+    letter-spacing: 0.05rem;
 }
 
 .experience-description {
