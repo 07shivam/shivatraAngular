@@ -11,11 +11,13 @@ import {MatButtonModule} from '@angular/material/button';
 import { HomeComponent } from './home/home.component';
 import { AboutUsComponent } from './about-us/about-us.component';
 import { ContactComponent } from './contact/contact.component';
+import { WorkExperienceComponent } from './workExperience/workExperience..component';
 
 @NgModule({
   declarations: [
     AppComponent,
     ServiceComponent,
+    WorkExperienceComponent,
     NavbarComponent,
     HomeComponent,
     AboutUsComponent,

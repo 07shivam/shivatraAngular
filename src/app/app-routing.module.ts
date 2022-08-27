@@ -5,10 +5,12 @@ import { AppComponent } from './app.component';
 import { ContactComponent } from './contact/contact.component';
 import { HomeComponent } from './home/home.component';
 import { ServiceComponent } from './service/service.component';
+import { WorkExperienceComponent } from './workExperience/workExperience..component';
 
 const routes: Routes = [
   { path:'home', component: HomeComponent },
   { path:'service', component: ServiceComponent},
+  { path:'workExperience', component: WorkExperienceComponent},
   { path:'aboutUs', component: AboutUsComponent},
   { path:'contact', component: ContactComponent }
 ];
